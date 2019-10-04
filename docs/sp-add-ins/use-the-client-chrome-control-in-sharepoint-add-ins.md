@@ -202,7 +202,7 @@ The following figure shows a remote webpage with the chrome control.
      //  a library to handle the query string.
      function getQueryStringParameter(paramToRetrieve) {
          var params =
-             document.URL.split("?")[1].split("&amp;");
+             document.URL.split("?")[1].split("&");
          var strParams = "";
          for (var i = 0; i < params.length; i = i + 1) {
              var singleParam = params[i].split("=");
@@ -285,7 +285,7 @@ The following figure shows a remote webpage with the chrome control.
          // a library to handle the query string.
          function getQueryStringParameter(paramToRetrieve) {
              var params =
-                 document.URL.split("?")[1].split("&amp;");
+                 document.URL.split("?")[1].split("&");
              var strParams = "";
              for (var i = 0; i < params.length; i = i + 1) {
                  var singleParam = params[i].split("=");
