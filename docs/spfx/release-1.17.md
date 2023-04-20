@@ -45,7 +45,7 @@ npm install @microsoft/generator-sharepoint@latest --global
 - **Authentication improvements** with popup flow support for API authentication.
 - **Accessibility improvements** for the web part areas.
 - **Development time improvements** with central configuration of developer tenant details.
-- **Microsoft Teams JS SDK** version update to version **2.19.1** to support new APIs, such as Live Share SDK.
+- **Microsoft Teams JS SDK** version update to version **2.9.1** to support new APIs, such as Live Share SDK.
 - *“Sync to Teams”* functionality in SharePoint app catalog update to use **Teams Manifest v1.16** for the automatically created Microsoft Teams solution package – making all SPFx components exposed across the Microsoft 365 also with automatically generated packaging
 - Viva Connections **Adaptive Cards Extensions** update to support **Adaptive Cards schema v1.5.** - enabling tables and other new features for ACEs
 
